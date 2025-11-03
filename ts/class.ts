@@ -1,4 +1,13 @@
-// Implement the interface using a Class
+type IPerson = {
+  fName: string;
+  lName: string;
+  birthday: [number, number, number]; // Year, Month, Day
+  hobbies: string[];
+  age?: number; // Getter will simulate this
+  email?: string;
+  fullName?: string; // Getter
+};
+
 class Human {
   fName: string;
   lName: string;
