@@ -38,12 +38,6 @@ class Cal {
   }
 }
 
-function Accumulator(initv = 1) {
-  this.value = initv;
-  this.read = function (newv) {
-    this.value += newv;
-  };
-}
-
-let accumulator = new Accumulator(0); // initial value 1
-console.log(accumulator.value);
+// let billion = 1_000_000_000;
+let billion = 1e9;
+console.log(billion);
